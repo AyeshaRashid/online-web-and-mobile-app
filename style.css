@@ -1,0 +1,205 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #e0dfdc;
+    /* background-color: tomato; */
+    font-weight: normal;
+}
+
+.vovo {
+    background-color: #2f948d;
+    /* background-color: #fff; */
+}
+.toppy {
+    padding: 0px;
+}
+nav ul{
+    padding: 12px 0px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.nav item {
+    padding: -0.5px 20px;
+}
+nav ul li{
+    padding: 0px 18px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav ul li:hover{
+    background-color: #015d56;
+    
+    /* background-color: pink; */
+
+    transition: 0.7s;
+}
+@media only screen and (max-width: 800px) {
+    nav ul{
+        height: 230px;
+        flex-direction: column;
+        text-align: center;    
+    }
+}
+
+
+
+
+@media screen and (max-width: 699px) {
+    #carousel-carousel .carousel-slides {
+      background-color: #0d0101;
+    }
+
+    #carousel-carousel .carousel-slide-text .btn {
+      background-color: #ffffff;
+      color: #0d0101;
+    }
+  }
+
+  #carousel-carousel .carousel-slide-image:before {
+    background-color: #000000;
+    opacity: 0.4;
+  }
+
+  #carousel-carousel .carousel-slide-text,
+  #carousel-carousel .carousel-slide-text h1,
+  #carousel-carousel .carousel-slide-text p {
+    text-align: center;
+    color: green;
+  }
+
+  #carousel-carousel .carousel-slide-progress-bar {
+    background-color: #000000;
+  }
+
+  #carousel-carousel .slick-active .carousel-slide-progress-bar {
+    -webkit-animation: progress-expand 10000ms linear;
+    -moz-animation: progress-expand 10000ms linear;
+    -o-animation: progress-expand 10000ms linear;
+    animation: progress-expand 10000ms linear;
+  }
+
+  #carousel-carousel .slick-dots button:before {
+    color: #ffffff;
+  }
+
+
+  /* Container holding the image and the text */
+.container1 {
+    position: relative;
+  }
+  
+  /* Bottom right text */
+  .text-block {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    /* right: 20%; */
+    color: white;
+    /* font-size: 80px; */
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    /* block-size: 400px 120px; */
+  }
+  .ty {
+      color: white;
+  }
+
+  .wrapper {
+      width: 1200px;
+      margin: 50px auto;
+      padding-left: 100px;
+      /* width: 705px;
+      margin: 20px auto;
+      padding-left: 20px; */
+  }
+
+  /* .stockk {
+      display: inline;
+      background-color: lightblue;
+      color: #e06288;
+      font-size: 15px;
+      font-weight: normal;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      float: left;
+      border-radius: 5px;
+  } */
+  
+
+  .clear {
+      clear: both;
+  }
+
+  .items {
+      display: block;
+      margin: 0px 0;
+  }
+
+  .item {
+      /* background-color: rgb(154, 214, 154); */
+      /* border: 5px rgb(150, 137, 137) solid; */
+      border-radius: 10px;
+      background-color: rgb(150, 137, 137);
+      float: left;
+      margin: 0 10px 10px 0;
+      width: 300px;
+      /* width: 205px; */
+      padding-top: 8px;
+
+  }
+
+  .pic {
+      display: block;
+      margin: auto;
+  }
+
+  .heading {
+      font-size: 18px;
+      display: block;
+      border: 1px solid #ccc;
+      margin: 0 0 10px 0;
+      padding: 0 0 5px 0;
+  }
+
+  button {
+    /* border: 1px solid #ef4478; */
+    padding: 4px 14px;
+    /* background-color: #ef4478; */
+    background-color: #5c5557;
+    color: white;
+    text-transform: uppercase;
+    flex: right;
+    margin: 0px 0;
+    font-weight: 400;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 50px;
+  }
+
+        button:focus{
+            outline: none !important;
+        }
+
+  span{
+      float: right;
+  }
+  .para {
+      font-size: 14px;
+      color: white;
+  }
+  /* .shopping-cart {
+      display: inline-block;
+      /* background: images(cart) no-repeat 0 0; */
+      /* background-image: image(images/cart) no-repeat 0 0; */
+      /* background-color: royalblue;
+      width: 24px;
+      height: 24px;
+      margin: 0 10px 0 0;
+  } */ 
